@@ -11,8 +11,12 @@ If you wish to join a chat,
 5. Redeem the code, and the bot will add you to the student chat.
 
 ## Technical Installation
-- Local SMTP mail server from Postfix has to be installed: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-22-04
-- Port forwarding
+- Requires a gmail email address with app password
+- Requires telegram bot token
+- Change `example_env` with environment variables and rename to `.env`
+- Run `pip install -r requirements.txt`
+- Run `npm install`
+- Start bot with `nodejs bot.js`
 
 ### Data Privacy and Protection
 You're private data is kept up to 24 hours so that the bot can grant you access to the student chat.
