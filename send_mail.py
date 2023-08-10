@@ -15,6 +15,8 @@ from email.message import EmailMessage
 # From .env
 EMAIL_ACCOUNT = os.getenv('EMAIL_ADDRESS')
 EMAIL_PASSWORD = os.getenv('EMAIL_PASSWORD')
+SMTP = os.getenv('SMTP')
+PORT = os.getenv('PORT')
 
 # Set up the email components
 msg = EmailMessage()

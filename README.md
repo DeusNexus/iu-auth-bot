@@ -23,5 +23,8 @@ You're private data is kept up to 24 hours so that the bot can grant you access 
 After it has added you, your 8-digit pin will no longer be valid. You're identifier (telegram_id) and email address will be removed.
 Only if you want to join a new chat your data will be stored for a maximum of 24 hours.
 
+### Spam Limitations
+Telegram ids will be limited to requesting one auth code for a valid email per 24 hours.
+
 ## Disclaimer
 The developed application is licensed under the GNU General Public License.
